@@ -38,7 +38,6 @@ It follows the goals step by step.
     Step 3:
         Extract only the measurements on the mean and standard deviation for each measurement.
         
-
     Step 4:
         Read  activity names and use activity names to name the activities in the data set.
 
