@@ -3,13 +3,14 @@
 ## Course project
 
 For creating a tidy data set of wearable computing data originally from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-Files in this repo
+
+## Files in this repo
 
     README.md -- General introduction
-    CodeBook.md -- codebook describing variables, the data and transformations
-    run_analysis.R -- actual R code
+    CodeBook.md -- Codebook describing variables
+    run_analysis.R -- Actual R script
 
-## run_analysis.R goals
+## run_analysis.R 
 
 You should create one R script called run_analysis.R that does the following. 
 1.Merges the training and the test sets to create one data set.
@@ -28,10 +29,8 @@ It should run in a folder of the Samsung data. The script assumes that it is in 
 
 The final output is created in working directory with the name of tidyData.txt
 
-Note: the R script is built to run without including any libraries for the purpose of this course.
-run_analysis.R walkthrough
 
-## It follows the goals step by step.
+## It has following steps.
 
     Step 1:
         Read all the test, training and feature files.
